@@ -6,18 +6,7 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		7B6EE61F2D773A3900DD317F /* Warmup for Runners Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7B6EE61E2D773A3900DD317F /* Warmup for Runners Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		7B6EE6202D773A3900DD317F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B6EE6122D773A3900DD317F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B6EE61D2D773A3900DD317F;
-			remoteInfo = "Warmup for Runners Watch App";
-		};
 		7B6EE6312D773A3B00DD317F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7B6EE6122D773A3900DD317F /* Project object */;
@@ -34,22 +23,7 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		7B6EE6472D773A3B00DD317F /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				7B6EE61F2D773A3900DD317F /* Warmup for Runners Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		7B6EE6182D773A3900DD317F /* Warmup for Runners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warmup for Runners.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6EE61E2D773A3900DD317F /* Warmup for Runners Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warmup for Runners Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6EE6302D773A3B00DD317F /* Warmup for Runners Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Warmup for Runners Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6EE63A2D773A3B00DD317F /* Warmup for Runners Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Warmup for Runners Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +85,6 @@
 		7B6EE6192D773A3900DD317F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B6EE6182D773A3900DD317F /* Warmup for Runners.app */,
 				7B6EE61E2D773A3900DD317F /* Warmup for Runners Watch App.app */,
 				7B6EE6302D773A3B00DD317F /* Warmup for Runners Watch AppTests.xctest */,
 				7B6EE63A2D773A3B00DD317F /* Warmup for Runners Watch AppUITests.xctest */,
@@ -122,25 +95,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B6EE6172D773A3900DD317F /* Warmup for Runners */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B6EE6482D773A3B00DD317F /* Build configuration list for PBXNativeTarget "Warmup for Runners" */;
-			buildPhases = (
-				7B6EE6162D773A3900DD317F /* Resources */,
-				7B6EE6472D773A3B00DD317F /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B6EE6212D773A3900DD317F /* PBXTargetDependency */,
-			);
-			name = "Warmup for Runners";
-			packageProductDependencies = (
-			);
-			productName = "Warmup for Runners";
-			productReference = 7B6EE6182D773A3900DD317F /* Warmup for Runners.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
 		7B6EE61D2D773A3900DD317F /* Warmup for Runners Watch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B6EE6442D773A3B00DD317F /* Build configuration list for PBXNativeTarget "Warmup for Runners Watch App" */;
@@ -219,9 +173,6 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					7B6EE6172D773A3900DD317F = {
-						CreatedOnToolsVersion = 16.2;
-					};
 					7B6EE61D2D773A3900DD317F = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -249,7 +200,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B6EE6172D773A3900DD317F /* Warmup for Runners */,
 				7B6EE61D2D773A3900DD317F /* Warmup for Runners Watch App */,
 				7B6EE62F2D773A3B00DD317F /* Warmup for Runners Watch AppTests */,
 				7B6EE6392D773A3B00DD317F /* Warmup for Runners Watch AppUITests */,
@@ -258,13 +208,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7B6EE6162D773A3900DD317F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7B6EE61C2D773A3900DD317F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,11 +256,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7B6EE6212D773A3900DD317F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B6EE61D2D773A3900DD317F /* Warmup for Runners Watch App */;
-			targetProxy = 7B6EE6202D773A3900DD317F /* PBXContainerItemProxy */;
-		};
 		7B6EE6322D773A3B00DD317F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7B6EE61D2D773A3900DD317F /* Warmup for Runners Watch App */;
@@ -450,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Warmup for Runners Watch App/Warmup for Runners Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Warmup for Runners Watch App/Preview Content\"";
@@ -479,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Warmup for Runners Watch App/Warmup for Runners Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Warmup for Runners Watch App/Preview Content\"";
@@ -504,35 +444,6 @@
 			};
 			name = Release;
 		};
-		7B6EE6492D773A3B00DD317F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_KEY_CFBundleDisplayName = "Warmup for Runners";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.23.apps.Warmup-for-Runners";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		7B6EE64A2D773A3B00DD317F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_KEY_CFBundleDisplayName = "Warmup for Runners";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.23.apps.Warmup-for-Runners";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		7B6EE64C2D773A3B00DD317F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -540,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Warmup for Runners";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.23.apps.Warmup-for-Runners-Watch-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -559,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Warmup for Runners";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.23.apps.Warmup-for-Runners-Watch-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -578,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Warmup for Runners";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.23.apps.Warmup-for-Runners-Watch-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -596,6 +510,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Warmup for Runners";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.23.apps.Warmup-for-Runners-Watch-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -626,15 +541,6 @@
 			buildConfigurations = (
 				7B6EE6452D773A3B00DD317F /* Debug */,
 				7B6EE6462D773A3B00DD317F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7B6EE6482D773A3B00DD317F /* Build configuration list for PBXNativeTarget "Warmup for Runners" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B6EE6492D773A3B00DD317F /* Debug */,
-				7B6EE64A2D773A3B00DD317F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

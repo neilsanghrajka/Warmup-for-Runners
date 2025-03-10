@@ -1,0 +1,110 @@
+[
+  {
+    "id": "advanced_warmup",
+    "name": "Advanced Runner's Warmup",
+    "description": "A comprehensive warmup for experienced runners",
+    "exercises": [
+      {
+        "id": "jumping_jacks_adv",
+        "name": "Jumping Jacks",
+        "description": "Stand with feet together, arms at sides, then jump while spreading legs and raising arms",
+        "durationSeconds": 45,
+        "animationName": "jumping_jacks",
+        "audioInstructions": "Do jumping jacks for 45 seconds to warm up your entire body",
+        "halfwayAudioCue": "Halfway there, increase your pace!"
+      },
+      {
+        "id": "high_knees_adv",
+        "name": "High Knees",
+        "description": "Run in place, lifting your knees as high as possible with each step",
+        "durationSeconds": 40,
+        "animationName": "high_knees",
+        "audioInstructions": "Do high knees for 40 seconds to activate your hip flexors",
+        "halfwayAudioCue": "20 seconds left, keep those knees up!"
+      },
+      {
+        "id": "leg_swings_adv",
+        "name": "Leg Swings",
+        "description": "Hold onto something stable and swing one leg forward and backward, then side to side",
+        "durationSeconds": 60,
+        "animationName": "leg_swings",
+        "audioInstructions": "Perform leg swings to loosen up your hips and legs. 30 seconds per leg",
+        "halfwayAudioCue": "Switch legs now"
+      },
+      {
+        "id": "lunges_adv",
+        "name": "Walking Lunges",
+        "description": "Step forward into a lunge position, alternating legs",
+        "durationSeconds": 60,
+        "animationName": "lunges",
+        "audioInstructions": "Do dynamic walking lunges to activate your glutes and hamstrings",
+        "halfwayAudioCue": "Halfway point, focus on depth!"
+      },
+      {
+        "id": "arm_circles_adv",
+        "name": "Arm Circles",
+        "description": "Extend arms to sides and make small circles, then larger ones",
+        "durationSeconds": 40,
+        "animationName": "arm_circles",
+        "audioInstructions": "Make arm circles to warm up your shoulders and upper body",
+        "halfwayAudioCue": "Now switch direction!"
+      },
+      {
+        "id": "dynamic_stretches_adv",
+        "name": "Dynamic Stretches",
+        "description": "Perform a series of dynamic stretches for the major muscle groups",
+        "durationSeconds": 60,
+        "animationName": "dynamic_stretches",
+        "audioInstructions": "Perform dynamic stretches to increase flexibility and range of motion",
+        "halfwayAudioCue": "Halfway there, switch to the next stretch"
+      },
+      {
+        "id": "butt_kicks_adv",
+        "name": "Butt Kicks",
+        "description": "Run in place, kicking your heels up toward your buttocks",
+        "durationSeconds": 40,
+        "animationName": "butt_kicks",
+        "audioInstructions": "Do butt kicks to warm up your quadriceps and hamstrings",
+        "halfwayAudioCue": "20 seconds left, maintain your pace!"
+      }
+    ],
+    "restDurationSeconds": 15,
+    "autoStartRunAfterCompletion": true
+  },
+  {
+    "id": "quick_warmup",
+    "name": "Quick Warmup",
+    "description": "A short warmup for when you're pressed for time",
+    "exercises": [
+      {
+        "id": "jumping_jacks_quick",
+        "name": "Jumping Jacks",
+        "description": "Stand with feet together, arms at sides, then jump while spreading legs and raising arms",
+        "durationSeconds": 20,
+        "animationName": "jumping_jacks",
+        "audioInstructions": "Quick jumping jacks to get your heart rate up",
+        "halfwayAudioCue": "10 seconds left, keep it up!"
+      },
+      {
+        "id": "high_knees_quick",
+        "name": "High Knees",
+        "description": "Run in place, lifting your knees as high as possible with each step",
+        "durationSeconds": 20,
+        "animationName": "high_knees",
+        "audioInstructions": "High knees for 20 seconds, fast pace!",
+        "halfwayAudioCue": "10 seconds to go!"
+      },
+      {
+        "id": "lunges_quick",
+        "name": "Walking Lunges",
+        "description": "Step forward into a lunge position, alternating legs",
+        "durationSeconds": 20,
+        "animationName": "lunges",
+        "audioInstructions": "Quick walking lunges to activate your legs",
+        "halfwayAudioCue": "Halfway there!"
+      }
+    ],
+    "restDurationSeconds": 5,
+    "autoStartRunAfterCompletion": false
+  }
+]
